@@ -7,15 +7,25 @@ A machine learning project to predict customer churn using Scikit-learn and depl
 ## 🗂️ Project Structure
 
 ├── experiments.ipynb # Data exploration, preprocessing, training
+
 ├── prediction.ipynb # Predict churn using trained model
+
 ├── Churn_Modelling.csv # Source dataset
+
 ├── scaler.pk1 # Trained StandardScaler
+
 ├── label_encoder_gender.pk1 # LabelEncoder for Gender
-├── onehot_encoder_geo.pk1 # OneHotEncoder for Geography
+
+├── onehot_encoder_geo.pk1 # OneHotEncoder for Geography'
+
 ├── trained_model.pkl # Final ML model
+
 ├── columns.pk1 # Feature column order used for scaling
+
 ├── app.py # Streamlit app (coming soon)
+
 ├── README.md # GitHub documentation
+
 └── requirements.txt # Python dependencies
 
 
