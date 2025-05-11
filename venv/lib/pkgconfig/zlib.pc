@@ -1,0 +1,13 @@
+prefix=/Users/ruzzhx/Desktop/machine /venv
+exec_prefix=/Users/ruzzhx/Desktop/machine /venv
+libdir=/Users/ruzzhx/Desktop/machine /venv/lib
+sharedlibdir=/Users/ruzzhx/Desktop/machine /venv/lib
+includedir=/Users/ruzzhx/Desktop/machine /venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
